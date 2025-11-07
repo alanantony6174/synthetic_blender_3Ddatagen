@@ -111,20 +111,11 @@ project-root/
 ## Usage
 
 ### Single Model Generation
-
+Run main,py
 ```bash
-./main.py   --image   ./images/pics_crop/<your-image>.jpeg   --output  ~/.gazebo/models/<model_name>
+python3 main.py
 ```
-
-1. **Prompts**  
-   ```text
-   Enter box width (X) in cm: <value>
-   Enter box height (Z) in cm: <value>
-   ```
-2. **Result**  
-   ```text
-   ✅ All done! Model in /home/you/.gazebo/models/<model_name>
-   ```
+![Example Image](images/image.png)
 
 ### Batch Directory Generation
 
@@ -183,3 +174,6 @@ Please follow existing code style and update tests if any.
 ## License
 
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+
+
